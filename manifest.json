@@ -1,0 +1,9 @@
+{
+  "name": "Surf Chill",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "",
+  "action": {"default_popup": "default_popup.html"},
+  "background": {"service_worker": "service_worker.js"},
+  "permissions": [ "offscreen", "tabs" ]
+}
