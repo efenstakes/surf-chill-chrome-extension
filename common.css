@@ -1,0 +1,97 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 360px;
+    border-radius: 20px;
+    overflow-x: hidden;
+
+    padding: .5rem;
+}
+
+
+.surf_chill_logo_title {
+    position: absolute;
+    top: 10%;
+
+    /* transform: translate(-50%, -50%); */
+
+    font-weight: 800;
+    font-size: 5rem;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: purple;
+    -webkit-text-fill-color: white;
+
+    z-index: -5;
+}
+
+.surf_chill_logo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.surf_chill_logo {
+    /* width: 100%; * 200px; */
+    max-width: 350px;
+
+    /* when using image 3 - circle one */
+    max-width: 180px;
+    margin: 0 auto;
+
+    /* height: 120px; */
+    /* max-height: 160px;
+    aspect-ratio: 4/3;
+
+    margin: 0 auto;
+
+    border-radius: 12px; */
+}
+
+
+.song_card {
+    width: 100%;
+    max-width: 320px;
+
+    padding: 1rem;
+    margin-top: 1rem;
+
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px 0px lightgray;
+}
+
+.active_playing_song {
+
+    box-shadow: 0px 1px 5px 0px green;
+}
+
+.song_card__name_singer {
+    display: flex;
+    align-items: center;
+}
+
+.song_card__tags {
+    margin-top: .5rem;
+    font-style: italic;
+}
+
+.song_card__playing_indicator {
+    margin-top: .5rem;
+    font-weight: 600;
+    color: green;
+
+    text-align: end;
+}
+
+.song_card__paused_indicator {
+    margin-top: .5rem;
+    font-weight: 600;
+    color: goldenrod;
+
+    text-align: end;
+}
